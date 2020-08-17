@@ -1,5 +1,5 @@
 # Interview-Preparation
-Collections of Resources I collected during my Interview Prepration.
+Collections of Resources I collected during my Interview Prepration.(Will Add Questions Soon!)
 
 ## Table of Contents
 - [Data Structures](#data-structures)
