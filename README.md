@@ -15,8 +15,8 @@ Will add  Questions soon!.
   - [Graph](#graph)
 - [Algorithms](#algorithms)
 
-## Data Structures
-### Linked List
+# Data Structures
+## Linked List
  * A *Linked List* is a linear collection of data elements, called nodes, each
    pointing to the next node by means of a pointer. It is a data structure
    consisting of a group of nodes which together represent a sequence.
@@ -28,7 +28,21 @@ Will add  Questions soon!.
    * Search: `O(n)`
    * Insert: `O(1)`
    * Remove: `O(1)`
-
+ 
+ ### Questions:
+ > Try to know optimal/various solutions because other than that their are not much in these questions(like even with minimum traversals).
+   1. [Reverse the Linked List](https://leetcode.com/problems/reverse-linked-list/) (Recursive and Iterative)
+   1. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+   1. [Separate Even/Odd nodes in LL](https://leetcode.com/problems/odd-even-linked-list/)
+   1. [Clone LinkedList with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+   1. [LinkList Cycle Detection](https://leetcode.com/problems/linked-list-cycle/)
+   1. [LinkList Cycle Removal](https://leetcode.com/problems/linked-list-cycle-ii/) and also [the gfg one](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1)
+   1. [Pairwise Swap linkedList Nodes](https://leetcode.com/problems/swap-nodes-in-pairs/)
+   1. [Reverse LL in Group of K](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+   1. [LRU cache](https://leetcode.com/problems/lru-cache/)
+   
+**Special**(Applications in non-trivial form)
+   1. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) 
 ### Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
