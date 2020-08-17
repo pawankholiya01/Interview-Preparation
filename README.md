@@ -1,6 +1,7 @@
 # Interview-Preparation
-Collections of Resources I collected during my Interview Prepration.(Will Add Questions Soon!)
-
+Collections of Resources I collected during my Interview Prepration.
+I had spent significant amount of time for choosing resources while styding and have mentioned them with topics for easy reading.
+Will add  Questions soon!.
 ## Table of Contents
 - [Data Structures](#data-structures)
   - [Linked List](#linked-list)
