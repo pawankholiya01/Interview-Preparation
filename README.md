@@ -1,5 +1,5 @@
 # Interview-Preparation
-Collections of Resources I collected during my Interview Prepration.
+Collections of Resources I collected during my Internship Interview Prepration.
 I had spent significant amount of time for choosing resources while styding and have mentioned them with topics for easy reading.
 Will add  Questions soon!.
 ## Table of Contents
@@ -30,16 +30,18 @@ Will add  Questions soon!.
    * Remove: `O(1)`
  
  ### Questions:
- > Try to know optimal/various solutions because other than that their are not much in these questions(like even with minimum traversals).
+ > Try to know optimal/various solutions(even in no. of passes/traversals and space) because other than that their are not much in Linked Lists. Also for Linked List **search various solutions** even if you got optimal, you will learn many tricks on how to traverse etc in each case.
    1. [Reverse the Linked List](https://leetcode.com/problems/reverse-linked-list/) (Recursive and Iterative)
    1. [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+   1. [Remove Nth Node From End](https://leetcode.com/problems/remove-nth-node-from-end-of-list/solution/) (try it in one pass).
+   1. [Reorder List](https://leetcode.com/problems/reorder-list/).
    1. [Separate Even/Odd nodes in LL](https://leetcode.com/problems/odd-even-linked-list/)
    1. [Clone LinkedList with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
    1. [LinkList Cycle Detection](https://leetcode.com/problems/linked-list-cycle/)
    1. [LinkList Cycle Removal](https://leetcode.com/problems/linked-list-cycle-ii/) and also [the gfg one](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1)
    1. [Pairwise Swap linkedList Nodes](https://leetcode.com/problems/swap-nodes-in-pairs/)
    1. [Reverse LL in Group of K](https://leetcode.com/problems/reverse-nodes-in-k-group/)
-   1. [LRU cache](https://leetcode.com/problems/lru-cache/)
+   1. [LRU cache](https://leetcode.com/problems/lru-cache/) (optional)
    
 **Special**(Applications in non-trivial form)
    1. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) 
