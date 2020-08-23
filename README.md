@@ -14,6 +14,8 @@ Will add  Questions soon!.
   - [Hash Map](#hashing)
   - [Graph](#graph)
 - [Algorithms](#algorithms)
+- [How to Approach](#how-to-approach)
+
 
 # Data Structures
 ## Linked List
@@ -193,4 +195,68 @@ or equal to those of the children and the lowest key is in the root node
 * *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not
   have to be connected
 * Time Complexity: `O(|E|log|V|)`
+
+
+
+## How to Approach :
+ (Go to Approaches)
+```
+If input array is sorted then
+- Binary search
+- Two pointers
+- Upper_bound lower_bound 
+
+If given a Tree/Graph then
+- DFS
+- BFS
+
+If asked/generate all permutations/subsets then 
+- Backtracking
+
+If asked to generate any/all solutions 
+- Backtracking
+
+If very complex counting kind problem ( N < 50 )
+- Backtracking
+
+If feel like multiple nested for loops whose numbers depend upon conditional input
+- backtracking
+
+If given a linked list then
+- Two pointers
+
+If linklist backtraversing pointer needed then
+- Recursion (Head Recursion)
+
+If recursion is banned/TLE then
+- Stack
+
+If asked for maximum/minumum subarray/subset/options then
+- Dynamic programming
+
+If asked for counting then
+- Dynamic programming (Optimising Backtracking)
+
+If most subproblems are needed/Tighter Constraints in DP then
+- Tabulation in DP 
+
+If BruteForce Recursion fails then :
+- Recursion + store solved sub-problems (Memoization).
+
+If asked for top/least K items then
+- Heap
+
+If asked for common strings then
+- Map
+- Trie
+
+If O(1) operations needed then 
+- map or unordered_map 
+
+If O(logn) time operations needed then 
+- set , multi_set
+
+If find first/Number of elements greater than/equal to then 
+- lower_bound, upper_bound (in sorted )
+```
 
