@@ -47,7 +47,11 @@ Will add  Questions soon!.
    
 **Special**(Applications in non-trivial form)
    1. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) 
-### Stack
+   
+### Corner Cases :
+`Even Nodes/Odd Nodes` (also `Single or Two Nodes`) and `list has cycle` 
+
+## Stack
  * A *Stack* is a collection of elements, with two principle operations: *push*, which adds to the collection, and
    *pop*, which removes the most recently added element
  * **Last in, first out data structure (LIFO)**: the most recently added object is the first to be removed
@@ -56,6 +60,22 @@ Will add  Questions soon!.
    * Search: `O(n)`
    * Insert: `O(1)`
    * Remove: `O(1)`
+
+ ### Questions:
+ > Questions directly on stack are very limited, the real applications of stack are in Graph/Tree Traversals. Also understand both List and Array implementation of stack.
+   1. [Min/Max Stack](https://leetcode.com/problems/min-stack/)  (Remembe O(1) )
+   1. [Implement Queue using Stack](https://leetcode.com/problems/implement-queue-using-stacks/) 
+   1. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
+   1. [Valid Stack Sequence](https://leetcode.com/problems/validate-stack-sequences/) 
+   1. [Valid Parenthesis ](https://leetcode.com/problems/valid-parentheses/) 
+   1. [Minimum Deletion to make valid Paranthesis](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses).
+   1. [Minimum add to make parenthesis valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+      1. [Minimum Insertion to make valid Paranthesis](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
+   1. [Score of Parenthesis](https://leetcode.com/problems/score-of-parentheses/)
+   1. [Decode String](https://leetcode.com/problems/decode-string/) (Something New!)
+   1. [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) (optional)
+   1. [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/) (optional)
+   
 
 ### Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
