@@ -3,6 +3,7 @@ Collections of Resources I collected during my Internship Interview Prepration.
 I had spent significant amount of time for choosing resources while styding and have mentioned them with topics for easy reading.
 Will add  Questions soon!.
 ## Table of Contents
+- [Resources](#resources)
 - [Data Structures](#data-structures)
   - [Linked List](#linked-list)
   - [Stack](#stack)
@@ -15,6 +16,16 @@ Will add  Questions soon!.
   - [Graph](#graph)
 - [Algorithms](#algorithms)
 - [How to Approach](#how-to-approach)
+
+# Resources
+Free Resources to study/ revise each of the topics which I felt were concise and good enough.
+
+Topic | Resource 
+--- | --- 
+**Graph** | [3 Part Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/introduction-to-graphs-and-their-data-structures-section-1/)
+**Dynamic Programming**    | [Demystifing Dynamic Programming](https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/)
+**Dynamic Programming** | [7 Steps to Solve DP Problems](https://www.freecodecamp.org/news/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e/)
+1 | 2 
 
 
 # Data Structures
