@@ -22,10 +22,11 @@ Free Resources to study/ revise each of the topics which I felt were concise and
 
 Topic | Resource 
 --- | --- 
-**Graph** | [3 Part Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/introduction-to-graphs-and-their-data-structures-section-1/)
-**Dynamic Programming**    | [Demystifing Dynamic Programming](https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/)
-**Dynamic Programming** | [7 Steps to Solve DP Problems](https://www.freecodecamp.org/news/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e/)
-1 | 2 
+**Graph** (Basics/Theory)| [Basics and Representing Graph](https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13) , [Depth First Search](https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13) and [Breath First Search](https://medium.com/basecs/going-broad-in-a-graph-bfs-traversal-959bd1a09255).
+**Graph** (Programming)| [3 Part Tutorial](https://www.topcoder.com/community/competitive-programming/tutorials/introduction-to-graphs-and-their-data-structures-section-1/)
+**Dynamic Programming**    | [Dynamic Programming-Topcoder](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
+**Dynamic Programming** (How to Approach)| [7 Steps to Solve DP Problems](https://www.freecodecamp.org/news/follow-these-steps-to-solve-any-dynamic-programming-interview-problem-cc98e508cd0e/)
+ 
 
 
 # Data Structures
