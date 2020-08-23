@@ -198,7 +198,7 @@ or equal to those of the children and the lowest key is in the root node
 
 
 
-## How to Approach :
+## How to Approach
  (Go to Approaches)
 ```
 If input array is sorted then
