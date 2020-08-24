@@ -86,6 +86,7 @@ Topic | Resource
       1. [Minimum Insertion to make valid Paranthesis](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
    1. [Score of Parenthesis](https://leetcode.com/problems/score-of-parentheses/)
    1. [Decode String](https://leetcode.com/problems/decode-string/) (Something New!)
+   1. [Longest Valid Parenthesis](https://leetcode.com/problems/longest-valid-parentheses/) (Challenge)
    1. [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) (optional)
    1. [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/) (optional)
    
