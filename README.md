@@ -91,7 +91,7 @@ Topic | Resource
    1. [Trapping Rainwater](https://leetcode.com/problems/trapping-rain-water/) (optional)
    
 
-### Queue
+## Queue
  * A *Queue* is a collection of elements, supporting two principle operations: *enqueue*, which inserts an element
    into the queue, and *dequeue*, which removes an element from the queue
  * **First in, first out data structure (FIFO)**: the oldest added object is the first to be removed
@@ -100,8 +100,25 @@ Topic | Resource
    * Search: `O(n)`
    * Insert: `O(1)`
    * Remove: `O(1)`
+### Questions:
+ > Applications of Queues in other techniques is very prevalent like **Sliding Windows**, **Priority Queue**,  **BFS** so grasp basic concepts properly. 
+   1. Implementation (Array and LinkedList)
+   1. Deque (Implementaion)
+   1. [Design Circular Queue](https://leetcode.com/problems/design-circular-queue) 
+   1. [Design Circular Deque ](https://leetcode.com/problems/design-circular-deque) 
+   
+## Matrix (2-D Array)
+ * A *Matrix* is a @-Diensional Array.Every element of the array is an array of fixed Size then it forms an Matrix.
+   Many times Matrix Questions can also be solved by imaginig matrix as a Graph and adjacent cells as connected nodes so.
 
-### Tree
+### Questions:
+   1. [Rotate Image](https://leetcode.com/problems/rotate-image/) (for anti-clockwise also).
+   1. [Spiral Traversal of Matrix](https://leetcode.com/problems/spiral-matrix) 
+   1. [Search a 2-D Matrix ](https://leetcode.com/problems/search-a-2d-matrix/) 
+   1. [Set Matrix Zeros] (https://leetcode.com/problems/set-matrix-zeroes/)
+   1. [Kth Smallest Element](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+## Tree
  * A *Tree* is an undirected, connected, acyclic graph
 
 ### Binary Tree
@@ -112,19 +129,19 @@ Topic | Resource
  * **Complete Tree**: a binary tree in which every level *except possibly the last* is full and all nodes in the last
    level are as far left as possible
 
-### Binary Search Tree
+### Binary Search Tree (BST)
  * A binary search tree, sometimes called BST, is a type of binary tree which maintains the property that the value in each
    node must be greater than or equal to any value stored in the left sub-tree, and less than or equal to any value stored
-   in the right sub-tree
+   in the right sub-tree.
  * Time Complexity:
    * Access: `O(log(n))`
    * Search: `O(log(n))`
    * Insert: `O(log(n))`
    * Remove: `O(log(n))`
 
-### Heap
-* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if A is a parent node of
-B, then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap.
+## Heap
+* A *Heap* is a specialized tree based structure data structure that satisfies the *heap* property: if **A is a parent node of**
+**B** , then the key (the value) of node A is ordered with respect to the key of node B with the same ordering applying across the entire heap.
 A heap can be classified further as either a "max heap" or a "min heap". In a max heap, the keys of parent nodes are always greater
 than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
@@ -133,7 +150,7 @@ or equal to those of the children and the lowest key is in the root node
   * Insert: `O(log(n))`
   * Remove Max / Min: `O(log(n))`
 
-### Hashing
+## Hashing
 * *Hashing* is used to map data of an arbitrary size to data of a fixed size. The values returned by a hash
   function are called hash values, hash codes, or simply hashes. If two keys map to the same value, a collision occurs
 * **Hash Map**: a *hash map* is a structure that can map keys to values. A hash map uses a hash function to compute
@@ -147,7 +164,7 @@ or equal to those of the children and the lowest key is in the root node
 
 
 
-### Graph
+## Graph
 * A *Graph* is an ordered pair of G = (V, E) comprising a set V of vertices or nodes together with a set E of edges or arcs,
   which are 2-element subsets of V (i.e. an edge is associated with two vertices, and that association takes the form of the
   unordered pair comprising those two vertices)
@@ -157,19 +174,19 @@ or equal to those of the children and the lowest key is in the root node
  (u -> v), this does *not* imply that there exists an edge from node v to node u (v -> u)
 
 
-## Algorithms
+# Algorithms
 
-### Sorting
+## Sorting
 
-#### Quicksort
+### Quicksort
 * Stable: `No`
 * Time Complexity:
   * Best Case: `O(nlog(n))`
   * Worst Case: `O(n^2)`
   * Average Case: `O(nlog(n))`
+  * Improvement: **`Randomized`** Quick-Sort.
 
-
-#### Mergesort
+### Mergesort
 * *Mergesort* is also a divide and conquer algorithm. It continuously divides an array into two halves, recurses on both the
   left subarray and right subarray and then merges the two sorted halves
 * Stable: `Yes`
@@ -178,30 +195,30 @@ or equal to those of the children and the lowest key is in the root node
   * Worst Case: `O(nlog(n))`
   * Average Case: `O(nlog(n))`
 
-### Graph Algorithms
+## Graph Algorithms
 
-#### Depth First Search
+### Depth First Search
 * *Depth First Search* is a graph traversal algorithm which explores as far as possible along each branch before backtracking
 * Time Complexity: `O(|V| + |E|)`
 
 
-#### Breadth First Search
+### Breadth First Search
 * *Breadth First Search* is a graph traversal algorithm which explores the neighbor nodes first, before moving to the next
   level neighbors
 * Time Complexity: `O(|V| + |E|)`
 
 
-#### Topological Sort
+### Topological Sort
 * *Topological Sort* is the linear ordering of a directed graph's nodes such that for every edge from node u to node v, u
   comes before v in the ordering
 * Time Complexity: `O(|V| + |E|)`
 
-#### Dijkstra's Algorithm
+### Dijkstra's Algorithm
 * *Dijkstra's Algorithm* is an algorithm for finding the shortest path between nodes in a graph
 * Time Complexity: `O(|V|^2)`
 
 
-#### Bellman-Ford Algorithm
+### Bellman-Ford Algorithm (Rare)
 * *Bellman-Ford Algorithm* is an algorithm that computes the shortest paths from a single source node to all other nodes in a weighted graph
 * Although it is slower than Dijkstra's, it is more versatile, as it is capable of handling graphs in which some of the edge weights are
   negative numbers
@@ -210,7 +227,7 @@ or equal to those of the children and the lowest key is in the root node
   * Worst Case: `O(|V||E|)`
 
 
-#### Floyd-Warshall Algorithm
+### Floyd-Warshall Algorithm (Rare)
 * *Floyd-Warshall Algorithm* is an algorithm for finding the shortest paths in a weighted graph with positive or negative edge weights, but
   no negative cycles
 * A single execution of the algorithm will find the lengths (summed weights) of the shortest paths between *all* pairs of nodes
@@ -219,13 +236,13 @@ or equal to those of the children and the lowest key is in the root node
   * Worst Case: `O(|V|^3)`
   * Average Case: `O(|V|^3)`
 
-#### Prim's Algorithm
+### Prim's Algorithm
 * *Prim's Algorithm* is a greedy algorithm that finds a minimum spanning tree for a weighted undirected graph. In other words, Prim's find a
   subset of edges that forms a tree that includes every node in the graph
 * Time Complexity: `O(|V|^2)`
 
 
-#### Kruskal's Algorithm
+### Kruskal's Algorithm
 * *Kruskal's Algorithm* is also a greedy algorithm that finds a minimum spanning tree in a graph. However, in Kruskal's, the graph does not
   have to be connected
 * Time Complexity: `O(|E|log|V|)`
